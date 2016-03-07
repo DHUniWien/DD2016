@@ -1,0 +1,44 @@
+# This is how I can leave a comment in the file to explain things.
+
+# Here is a table for real people. We don't have to know when they were born.
+people
+ * id integer
+ - name varchar(50)
+ - born? date
+ 
+# Here is a table for movies. We don't have to have a tagline for every movie.
+movies
+ * id integer
+ - title varchar(255)
+ - tagline? varchar(255)
+ - released date
+ 
+# Here is a table that associates actors with movies
+roles
+ * id integer
+ - role varchar(50)
+ - actor => people.id
+ - movie => movies.id
+ 
+# Here is a table that associates movies with reviewers
+reviews
+ * id integer
+ - movie  => movies.id
+ - author => people.id
+ - summary varchar(255)
+ - rating integer
+ 
+# Here is a table that associates movies with scriptwriters
+wrote
+ - movie  => movies.id
+ - author => people.id
+  
+# Here is a table that associates movies with directors
+directed
+ - movie    => movies.id
+ - director => people.id
+  
+# Here is a table that associates moves with producers
+produced
+ - movie    => movies.id
+ - producer => people.id
