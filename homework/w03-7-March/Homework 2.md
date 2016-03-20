@@ -31,7 +31,7 @@ have the same data type as you have already assigned to `id` in the
 Instructions
 ------------
 
-Make a Git repository on your comptuer called 'DigitalData', that you will 
+Make a Git repository on your computer called 'DigitalData', that you will 
 push to your own Github account. Make a folder called 'Homework2' inside that 
 repository.
 
