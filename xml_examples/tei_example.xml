@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>How do I love thee?</title>
+        <author>Elizabeth Barrett Browning</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>unknown</publisher>
+        <date>2010</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>The Works of Elizabeth Barrett Browning</title>
+            <editor>Donaldson, Sandra</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Pickering &amp; Chatto Publishers</publisher>
+            <pubPlace>London</pubPlace>
+            <date>2010</date>
+          </publicationStmt>
+          <notesStmt>
+            <note type="sentence">Taken from TEI By Example.</note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <lg type="sonnet">
+        <head><title>How do I love thee?</title></head>
+        <lg type="stanza">
+          <l rhyme="a">How do I love thee? Let me count the <rhyme>ways</rhyme>.</l>
+          <l rhyme="b">I love thee to the depth and breadth and <rhyme>height</rhyme></l>
+          <l rhyme="b">My soul can reach, when feeling out of <rhyme>sight</rhyme></l>
+          <l rhyme="a">For the ends of Being and ideal <rhyme>Grace</rhyme>.</l>
+        </lg>
+
+        <lg type="stanza">
+          <l rhyme="a">I love thee to the level of every<rhyme>day's</rhyme></l>
+          <l rhyme="b">Most quiet need, by sun and candle-<rhyme>light</rhyme>.</l>
+          <l rhyme="b">I love thee freely, as men strive for <rhyme>Right</rhyme>;</l>
+          <l rhyme="a">I love thee purely, as they turn from <rhyme>Praise</rhyme>.</l>
+        </lg>
+
+        <lg type="stanza">
+          <l rhyme="c">I love thee with a passion put to <rhyme>use</rhyme></l>
+          <l rhyme="d">In my old griefs, and with my childhood's <rhyme>faith</rhyme>.</l>
+          <l rhyme="c">I love thee with a love I seemed to <rhyme>lose</rhyme></l>
+          <l rhyme="d">With my lost saints, --- I love thee with the <rhyme>breath</rhyme>,</l>
+          <l rhyme="c">Smiles, tears, of all my life! --- and, if God <rhyme>choose</rhyme>,</l>
+          <l rhyme="d">I shall but love thee better after <rhyme>death</rhyme>.</l>
+        </lg>
+      </lg>
+
+    </body>
+  </text>
+</TEI>
