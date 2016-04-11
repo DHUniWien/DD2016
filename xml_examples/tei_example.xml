@@ -9,7 +9,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>unknown</publisher>
-        <date>2010</date>
+        <date>1849</date>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
@@ -51,8 +51,8 @@
           <l rhyme="c">I love thee with a passion put to <rhyme>use</rhyme></l>
           <l rhyme="d">In my old griefs, and with my childhood's <rhyme>faith</rhyme>.</l>
           <l rhyme="c">I love thee with a love I seemed to <rhyme>lose</rhyme></l>
-          <l rhyme="d">With my lost saints, --- I love thee with the <rhyme>breath</rhyme>,</l>
-          <l rhyme="c">Smiles, tears, of all my life! --- and, if God <rhyme>choose</rhyme>,</l>
+          <l rhyme="d">With my lost saints, <caesura/> I love thee with the <rhyme>breath</rhyme>,</l>
+          <l rhyme="c">Smiles, tears, of all my life! <caesura/> and, if God <rhyme>choose</rhyme>,</l>
           <l rhyme="d">I shall but love thee better after <rhyme>death</rhyme>.</l>
         </lg>
       </lg>
