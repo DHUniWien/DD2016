@@ -10,11 +10,12 @@ This directory contains some example files for the XML lessons that we've had.
 
 (The Browning and Russell texts are taken from [TEI By Example](http://teibyexample.org).)
 
+In the `xquery_examples` folder there are examples, in increasing order of complexity, of how XQuery works.
 
 XPath cheat sheet
 -----------------
 
-Here are some examples of XPath that we learned in class, plus a few bonus ones that you will need in order to do the homework.
+Here are some examples of XPath that we learned in class, plus a few bonus ones that you will need in order to do the homework. A fuller XPath 2.0 reference [can be found here](http://saxon.sourceforge.net/saxon7.9/expressions.html).
 
 	/	This is the path separator. A / by itself is the whole document.
 	
