@@ -136,7 +136,7 @@ For each of these problems, write EITHER an XQuery document OR an IPython cell t
  
 7. Choose the elements that look like they contain words (hint: `lb` isn't going to be one of them) and write some logic to select only those elements. Extract all the text from each element in turn and return it like this in XQuery:
 
-		return ($text, ' ')
+		return string-join($text, ' ')
 		
    or like this in IPython:
    
